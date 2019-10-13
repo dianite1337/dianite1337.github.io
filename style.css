@@ -14,6 +14,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 90px;
+}
+
 p {
     padding: 30px;
     font-family: Montserrat, sans-serif;
@@ -25,6 +29,6 @@ p {
 }
 
 .para-two {
-    background-color: #b59376;
+    background-color: #8178eb;
 
 }
