@@ -2,8 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 30px;
-    font-family: Arial, Georgia, sans-serif;
+    font-family: 'Rock Salt', Georgia, sans-serif;
     text-align: center;
 }
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px
+}
+
+
