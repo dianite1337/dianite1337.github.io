@@ -23,24 +23,29 @@ p {
     position: relative;
     padding: 30px;
     font-family: Montserrat, sans-serif;
-    font-size: 20px
+    font-size: 20px; 
 }
 
 .para-one {
+    z-index: 2;
     background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 25px;
 }
 
 .para-two {
-    background-color: #8178eb;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 25px
 
 }
 
-.my-container {
+.para-one-bgphoto {
     position: relative;
     background: #5C97FF;
     overflow: hidden;
 }
-.my-container:before {
+.para-one-bgphoto:after {
     content: ' ';
     display: block;
     position: absolute;
@@ -49,8 +54,42 @@ p {
     width: 100%;
     height: 100%;
     z-index: ;
-    opacity: 0.6;
-    background-image: url('http://placekitten.com/1500/1000');
+    opacity: 0.3;
+    background-image: url('http://placekitten.com/2000/2000');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 25px;
+}
+.para-one-bgphoto h2 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+} 
+
+/*
+.para-two-bgphoto {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+.para-two-bgphoto:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: ;
+    opacity: 0.3;
+    background-image: url('http://placekitten.com/600/500');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -59,10 +98,11 @@ p {
     -webkit-background-size: cover;
     background-size: cover;
 }
-.my-container h1 {
+.para-two-bgphoto h2 {
     padding: 50px;
     text-align: center;
     z-index: 2;
     position: relative;
     color: #fff;
 } 
+*/
