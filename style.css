@@ -19,16 +19,50 @@ h1 {
 }
 
 p {
+    z-index: 2;
+    position: relative;
     padding: 30px;
     font-family: Montserrat, sans-serif;
     font-size: 20px
 }
 
 .para-one {
-    background-color: #f2e2ce;
+    background-color: #ffffff;
 }
 
 .para-two {
     background-color: #8178eb;
 
 }
+
+.my-container {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: ;
+    opacity: 0.6;
+    background-image: url('http://placekitten.com/1500/1000');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container h1 {
+    padding: 50px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+} 
