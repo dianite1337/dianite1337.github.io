@@ -29,15 +29,10 @@ p {
 .para-one {
     z-index: 2;
     background-color: #ffffff;
-    border: 3px solid #000000;
-    border-radius: 25px;
 }
 
 .para-two {
     background-color: #ffffff;
-    border: 3px solid #000000;
-    border-radius: 25px
-
 }
 
 .para-one-bgphoto {
@@ -73,7 +68,6 @@ p {
     color: #fff;
 } 
 
-/*
 .para-two-bgphoto {
     position: relative;
     background: #5C97FF;
@@ -97,6 +91,7 @@ p {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    border-radius: 25px;
 }
 .para-two-bgphoto h2 {
     padding: 50px;
@@ -105,4 +100,3 @@ p {
     position: relative;
     color: #fff;
 } 
-*/
