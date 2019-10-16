@@ -5,13 +5,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    width: 750px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 body {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 30px;
     font-family: Georgia, sans-serif;
     text-align: center;
@@ -22,11 +23,11 @@ h1 {
 }
 
 p {
-    z-index: 2;
-    position: relative;
     padding: 30px;
-    font-family: Montserrat, sans-serif;
+    font-family: Georgia, sans-serif;
     font-size: 20px;
+    margin-bottom: 30px;
+    
 
 }
 
@@ -38,6 +39,22 @@ p {
 .para-two {
     background-color: #8c80ea;
 }
+
+.first-image {
+    height: 200px;
+    width: 200px;
+}
+
+.para-heading {
+    text-align: left;
+    margin-left: 40px;
+    
+}
+
+.container {
+    width: 960px;
+}
+
 /*
 .para-one-bgphoto {
     position: relative;
@@ -107,11 +124,3 @@ p {
 } 
 */
 
-.first-image {
-    height: 200px;
-    width: 200px;
-}
-
-.para-heading {
-    
-}
