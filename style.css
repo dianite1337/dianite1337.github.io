@@ -6,12 +6,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    align-content: center;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     font-size: 30px;
-    font-family: 'Rock Salt', Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
     text-align: center;
 }
 
@@ -28,15 +30,15 @@ p {
 
 }
 
+
 .para-one {
-    z-index: 2;
-    background-color: #ffffff;
+    background-color: #ffcfcf;
 }
 
 .para-two {
-    background-color: #ffffff;
+    background-color: #8c80ea;
 }
-
+/*
 .para-one-bgphoto {
     position: relative;
     background: #5C97FF;
@@ -103,3 +105,13 @@ p {
     position: relative;
     color: #fff;
 } 
+*/
+
+.first-image {
+    height: 200px;
+    width: 200px;
+}
+
+.para-heading {
+    
+}
