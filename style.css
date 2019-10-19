@@ -7,7 +7,7 @@ body {
     margin-left: auto;
     font-size: 20px;
     font-family: Georgia, sans-serif;
-    width: 75%;
+    width: 85%;
     text-align: left;
     text-justify: inter-word;
     color: #f7bbbb;
@@ -19,8 +19,8 @@ div.polaroid {
     border-bottom-right-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: ;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-bottom: 20px;
     background-color: rgba(255, 209, 220, 0.75);
@@ -38,15 +38,14 @@ div.container {
     padding: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-.rotate {
-    image-orientation: from-image;
+img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
-
 
 
 
