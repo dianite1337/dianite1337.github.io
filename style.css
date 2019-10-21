@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url("https://use.typekit.net/vna3tdc.css");
 
 body {
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
     font-family: Georgia, sans-serif;
-    width: 85%;
+    width: 90%;
     text-align: left;
     text-justify: inter-word;
     color: #f7bbbb;
@@ -64,8 +65,19 @@ div.container {
     margin-bottom: 20px;
 }
 
-.strong-words {
-    font-family: monospace;
+.letter-paper-4{
+    color: rgba(46, 0, 0, 0.65);
+    background-color: rgba(255, 209, 220, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.strong-words-1 {
+    font-family: inherit;
     text-align: center;
     font-size: 30px;
     color: rgba(46, 0, 0, 0.65);
@@ -79,6 +91,35 @@ div.container {
     
 }
 
+.strong-words-2 {
+    font-family: inherit;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(46, 0, 0, 0.65);
+    background-color: rgba(255, 209, 220, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    
+}
+
+.strong-words-3 {
+    font-family: inherit;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(46, 0, 0, 0.65);
+    background-color: rgba(255, 209, 220, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    
+}
 img {
     width: 100%;
     border-top-left-radius: 15px;
