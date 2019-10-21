@@ -39,6 +39,44 @@ div.container {
     padding-left: 5%;
     padding-right: 5%;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.letter-paper-2 {
+    color: rgba(46, 0, 0, 0.65);
+    background-color: rgba(255, 209, 220, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.letter-paper-3 {
+    color: rgba(46, 0, 0, 0.65);
+    background-color: rgba(255, 209, 220, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.strong-words {
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(46, 0, 0, 0.65);
+    background-color: rgba(255, 209, 220, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 18px 60px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    
 }
 
 img {
